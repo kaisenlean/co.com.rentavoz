@@ -10,6 +10,16 @@
 	<modules>
 		<module>../co.com.rentavoz.consola</module>
 		<module>../co.com.rentavoz.model.jpa</module>
-
+		<module>../co.com.rentavoz.model.core</module>
 	</modules>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>3.0.5.RELEASE</version>
+		</dependency>
+	</dependencies>
+
 </project>
